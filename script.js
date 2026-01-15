@@ -55,7 +55,7 @@ function checkoutWhatsApp() {
         return;
     }
 
-    let nomorHP = "62895382110326"; // GANTI NOMOR WA ANDA DI SINI (Tanpa tanda +)
+    let nomorHP = "628953821126"; // GANTI NOMOR WA ANDA DI SINI (Tanpa tanda +)
     
     let pesan = `Halo Min, saya mau pesan:%0A`;
     let total = 0;
@@ -72,4 +72,5 @@ function checkoutWhatsApp() {
 }
 
 // Jalankan saat halaman dibuka pertama kali
+
 window.onload = tampilkanProduk;
